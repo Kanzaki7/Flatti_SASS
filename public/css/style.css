@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  height: 500px;
+  margin: 0;
+}
+header div img {
+  height: 420px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #363b47;
+  height: 80px;
+}
+nav div:first-of-type a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+nav div:nth-of-type(2) ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  gap: 55px;
+}
+nav div:nth-of-type(2) ul li {
+  list-style: none;
+}
+nav div:nth-of-type(2) ul li a {
+  text-decoration: none;
+  color: #96938c;
+  font-size: 14px;
+  width: 150px;
+  height: 100px;
+}
+nav div:nth-of-type(2) ul li a:hover {
+  padding: 20px;
+  color: white;
+  background-color: #3676bb;
+}
+
+main section:first-of-type {
+  background-color: #e8e6e0;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+main section:first-of-type div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+  margin-top: 70px;
+}
+main section:first-of-type div p {
+  font-size: 30px;
+  color: #8a878d;
+}
+main section:first-of-type div p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+main section:first-of-type div p:nth-of-type(1) #program {
+  color: white;
+  background-color: #26a2cc;
+  padding: 5px;
+}
+main section:first-of-type div p:nth-of-type(2) #complexity {
+  color: #26a2cc;
+  font-weight: bold;
+}
+main section:first-of-type div p:nth-of-type(2) #simple {
+  color: #69747f;
+  font-weight: bold;
+}
+main section:first-of-type p {
+  font-size: 30px;
+  color: #8a878d;
+}
+main section:nth-of-type(2) {
+  height: 1100px;
+}
+main section:nth-of-type(2) div:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 50%;
+}
+main section:nth-of-type(2) div:first-of-type .card {
+  width: 300px;
+  height: 350px;
+  background-color: #e2e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+main section:nth-of-type(2) div:first-of-type .card div:first-of-type .icon {
+  width: 40px;
+  height: 40px;
+  padding: 7px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+main section:nth-of-type(2) div:first-of-type .card .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-of-type(2) div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main section:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+main section:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(1) a {
+  text-decoration: none;
+  color: white;
+  background-color: #26a2cc;
+  padding: 20px;
+  border-radius: 3px;
+}
+main section:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+main section:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(2) .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(2) .cards div img {
+  width: 230px;
+  height: 150px;
+}
+main section:nth-of-type(2) div:nth-of-type(2) div:nth-of-type(2) .cards .cards-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #38485f;
+  color: white;
+  width: 230px;
+}
+
+footer {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+footer div:first-of-type {
+  height: 350px;
+  background-color: #3676bb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer div:first-of-type p:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div:nth-of-type(2) {
+  height: 50px;
+  background-color: #363b47;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
